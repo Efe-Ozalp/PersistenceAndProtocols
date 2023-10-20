@@ -31,6 +31,12 @@ struct ContentView: View {
             }
         }
         .foregroundColor(.blue)
-        FooterView()
+        FooterViewE()
+    }
+}
+
+struct ContentView2: View {
+    var body: some View {
+        Text("")
     }
 }

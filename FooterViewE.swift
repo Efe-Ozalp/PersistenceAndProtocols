@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct FooterView: View {
+struct FooterViewE: View {
     var body: some View {
         Divider()
         Group {
