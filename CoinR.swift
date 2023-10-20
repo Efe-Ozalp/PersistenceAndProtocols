@@ -7,14 +7,12 @@
 
 import SwiftUI
 
-struct CoinR: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+//MARK: Stretch #2 - Part I
+
+struct Money: Identifiable {
+    
+    var nameOfCoin = ""
+    var id = ""
+   
 }
 
-struct CoinR_Previews: PreviewProvider {
-    static var previews: some View {
-        CoinR()
-    }
-}

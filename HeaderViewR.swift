@@ -9,7 +9,13 @@ import SwiftUI
 
 struct HeaderViewR: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Group {
+            Divider()
+            Text("Protocols Challenge")
+                .frame(maxWidth: .infinity, alignment: .center)
+                .font(.title)
+            Divider()
+        }
     }
 }
 

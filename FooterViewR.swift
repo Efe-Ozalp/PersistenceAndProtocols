@@ -9,12 +9,14 @@ import SwiftUI
 
 struct FooterViewR: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Divider()
+        Group {
+            Image("MobileMakersEduNB")
+                .resizable()
+                .frame(maxWidth: .infinity)
+                .scaledToFit()
+        }
+        .padding()
     }
 }
 
-struct FooterViewR_Previews: PreviewProvider {
-    static var previews: some View {
-        FooterViewR()
-    }
-}

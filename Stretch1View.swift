@@ -7,14 +7,25 @@
 
 import SwiftUI
 
-struct Stretch1View: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+import SwiftUI
+import MapKit
+
+//MARK: Stretch #1 - Part I
+
+
+struct MapView: UIViewRepresentable {
+    func makeUIView(context: Context) -> some UIView {
+        MKMapView()
+    }
+    func updateUIView(_ uiView: UIViewType, context: Context) {
+        
     }
 }
 
-struct Stretch1View_Previews: PreviewProvider {
+struct Stretch1View: PreviewProvider {
     static var previews: some View {
-        Stretch1View()
+        MapView()
     }
 }
+
+

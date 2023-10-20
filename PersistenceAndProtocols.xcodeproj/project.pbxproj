@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		372521A92AD452FC006C80D3 /* ContentViewBasuEdition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372521A82AD452FB006C80D3 /* ContentViewBasuEdition.swift */; };
 		E7A247B52AD44FAD00AD65B3 /* PersistenceAndProtocolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A247B42AD44FAD00AD65B3 /* PersistenceAndProtocolsApp.swift */; };
 		E7A247B72AD44FAD00AD65B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A247B62AD44FAD00AD65B3 /* ContentView.swift */; };
 		E7A247B92AD44FAE00AD65B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7A247B82AD44FAE00AD65B3 /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		372521A82AD452FB006C80D3 /* ContentViewBasuEdition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewBasuEdition.swift; sourceTree = "<group>"; };
 		E7A247B12AD44FAD00AD65B3 /* PersistenceAndProtocols.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersistenceAndProtocols.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7A247B42AD44FAD00AD65B3 /* PersistenceAndProtocolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceAndProtocolsApp.swift; sourceTree = "<group>"; };
 		E7A247B62AD44FAD00AD65B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				E7A247F42AD451C900AD65B3 /* Contact.swift */,
+				372521A82AD452FB006C80D3 /* ContentViewBasuEdition.swift */,
 				E7A247F22AD451A700AD65B3 /* Stretch3View.swift */,
 				E7A247F02AD4519F00AD65B3 /* Stretch1View.swift */,
 				E7A247EE2AD4519200AD65B3 /* MVPModifier.swift */,
@@ -302,6 +305,7 @@
 				E7A247F52AD451C900AD65B3 /* Contact.swift in Sources */,
 				E7A247E12AD4509400AD65B3 /* FooterViewR.swift in Sources */,
 				E7A247DF2AD4505C00AD65B3 /* CoinR.swift in Sources */,
+				372521A92AD452FC006C80D3 /* ContentViewBasuEdition.swift in Sources */,
 				E7A247B72AD44FAD00AD65B3 /* ContentView.swift in Sources */,
 				E7A247EF2AD4519200AD65B3 /* MVPModifier.swift in Sources */,
 				E7A247B52AD44FAD00AD65B3 /* PersistenceAndProtocolsApp.swift in Sources */,

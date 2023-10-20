@@ -7,14 +7,18 @@
 
 import SwiftUI
 
-struct MVPModifier: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+//MARK: MVP - Part I
+
+struct MVPModifier: ViewModifier {
+func body(content: Content) -> some View {
+content
+.font(.caption2)
+.padding(10)
+.overlay(
+RoundedRectangle(cornerRadius: 15)
+.stroke(lineWidth: 1)
+)
+.foregroundColor(Color.blue)
+}
 }
 
-struct MVPModifier_Previews: PreviewProvider {
-    static var previews: some View {
-        MVPModifier()
-    }
-}
