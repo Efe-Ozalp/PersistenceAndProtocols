@@ -1,26 +1,42 @@
-//
-//  ContentView.swift
-//  PersistenceAndProtocols
-//
-//  Created by Efe Ozalp on 10/9/23.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        HeaderViewE()
+        NavigationStack {
+            Text("User Defaults")
+                .font(.largeTitle)
+            HStack(spacing: 50) {
+                NavigationLink {
+                    SaveView()
+                } label: {
+                    VStack {
+                        Image(systemName: "square.and.arrow.down.fill")
+                            .font(.system(size: 100))
+                        Text("In")
+                            .font(.largeTitle)
+                    }
+                }
+
+                NavigationLink {
+                    RetrieveView()
+                } label: {
+                    VStack {
+                        Image(systemName: "square.and.arrow.up.fill")
+                            .font(.system(size: 100))
+                        Text("Out")
+                            .font(.largeTitle)
+                    }
+                }
+            }
         }
-        .padding()
+        .foregroundColor(.blue)
+        FooterViewE()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+struct ContentView2: View {
+    var body: some View {
+        Text("")
     }
 }
